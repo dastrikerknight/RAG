@@ -6,7 +6,7 @@ load_dotenv()
 
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
-    raise ValueError("Missing GEMINI_API_KEY")
+    raise ValueError("Missing API_KEY")
 
 genai.configure(api_key=API_KEY)
 
