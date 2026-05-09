@@ -24,7 +24,7 @@ That is why feature like rate limit makes this a possible practical project.
 
 ## Demo
 
-![Project Screenshot](demo.png)
+![Project Screenshot](demo.jpeg)
 
 
 ## Project structure
