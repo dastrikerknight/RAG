@@ -1,2 +1,6 @@
 .env
 tryc.py
+**/__pycache__/
+*.py[cod]
+*$py.class
+chroma_db/
