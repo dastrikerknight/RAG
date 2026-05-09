@@ -5,8 +5,13 @@ A simple retrieval-augmented generation (RAG) app built with Gemini, ChromaDB, a
 The app retrieves relevant text chunks from stored documents and uses Gemini to generate grounded answers.
 ## KEY Highlight
 This simple RAG app uses a rate-limit feature.Why?
+
+
 Because local projects like this needs LLM calls using api and free end api's have limited tokens and resources which makes it crucial to restrict the wastage of these resources.
+
+
 Gemini free tier has request limits. **Without rate limiting, sending requests too quickly can cause errors.**
+
 That is why feature like rate limit makes this a possible practical project.
 
 ## Tech stack
@@ -16,6 +21,11 @@ That is why feature like rate limit makes this a possible practical project.
 - ChromaDB
 - Sentence Transformers
 - Gradio
+
+## Demo
+
+![Project Screenshot](demo.png)
+
 
 ## Project structure
 
